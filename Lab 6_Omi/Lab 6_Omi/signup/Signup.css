@@ -1,0 +1,68 @@
+body{
+    height:auto;
+    margin: 0%;
+}
+h2{
+    text-align: left;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
+
+.signup{
+    width: auto;
+    padding-top: 10px;;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    position: absolute;
+    font-size: 20px;
+    top: 25%;
+    left: 35%;
+    line-height: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(238, 227, 227);
+    border-radius: 5px;
+    background: transparent;
+    text-align: left;
+    vertical-align: middle;    
+}
+
+
+input{
+    height: 30px;
+    width: 400px;
+    padding-left: 10px; 
+}
+
+button{
+    width:100px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 5%;
+    vertical-align: middle;
+    font-size: 20px;
+
+    border-radius: 8px;
+    border-color:transparent;
+    background-color: rgb(133, 125, 240);
+    color: white;
+
+}
+input:focus
+{
+    background: steelblue;
+    opacity: 0.35;
+}
+
+button:hover{
+    background-color: aqua;
+    color: hotpink;
+    cursor: pointer;
+}
+
+#myVideo{
+    position: fixed;
+    width: auto;
+    height: auto;
+}
